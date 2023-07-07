@@ -183,24 +183,65 @@ main section {
   font-size: 16px;
   font-weight: 400;
 }
-.resume-container hr{
-    background: #D1D1D1;
-    margin:30px 0px;
+.resume-container hr {
+  background: #d1d1d1;
+  margin: 30px 0px;
 }
-.download-cv{
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 113px;
+.download-cv {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 113px;
 }
 /* Resume section ends here */
 
 /* What i do related style ends here */
 
 /* Footer style starts here */
-footer{
-    display: flex;
-    background: #FFF8F3;
-    padding: 130px 230px;
+footer {
+  display: flex;
+  background: #fff8f3;
+  padding: 130px 230px;
+  gap: 100px;
+}
+.footer-column {
+  width: 50%;
+}
+.section-description {
+  text-align: left;
+}
+.contact input[type="text"],input[type="email"],
+textarea {
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 35px;
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 5px;
+  background: #fff;
+  border: none;
+  width: 100%;
+}
+
+#name:focus,
+#email:focus,
+#message:focus {
+  outline: none;
+}
+#message {
+  resize: none;
+}
+#btn-primary {
+  border-radius: 5px;
+  background: #fd6e0a;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 35px;
+}
+.social-links a{
+    margin-right: 25px;
 }
 /* Footer style starts here */
 
