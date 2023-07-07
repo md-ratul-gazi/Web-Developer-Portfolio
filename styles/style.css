@@ -14,6 +14,19 @@ body {
   font-weight: 700;
   padding: 15px 35px;
 }
+.section-title {
+  color: var(#181818);
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+.section-description{
+    color: var(#757575);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
 /* Common shared styles */
 
 /* nav related styles here */
@@ -21,6 +34,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0px 200px;
 }
 .nav-title {
   color: #181818;
@@ -40,3 +54,54 @@ nav a {
   color: #474747;
 }
 /* nav related styles here */
+
+/* Header related styles here */
+.header {
+  background: #fff8f3;
+  background-image: url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.banner {
+  padding: 30px 30px 0px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner-content {
+  max-width: 500px;
+}
+.banner .profile-picture {
+  width: 500px;
+}
+.banner-greeting {
+  font-style: 45px;
+  color: #474747;
+  margin-bottom: 0px;
+}
+.banner-title {
+  font-style: 85px;
+  font-style: 700;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.banner-description {
+  color: #757575;
+  font-style: 18px;
+  font-weight: 400px;
+}
+.btn {
+  margin-right: 10px;
+}
+/* Header related styles here */
+
+/* Main related styles here */
+/* About section styles here */
+.about {
+  padding: 130px;
+  border-radius: 10px;
+  background: #fff8f3;
+  margin: 130px 0px;
+}
+/* About section styles here */
+/* Main related styles here */
