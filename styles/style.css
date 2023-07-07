@@ -20,12 +20,12 @@ body {
   font-size: 35px;
   font-weight: 700;
 }
-.section-description{
-    color: var(#757575);
-text-align: center;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
+.section-description {
+  color: var(#757575);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
 }
 /* Common shared styles */
 
@@ -96,12 +96,35 @@ nav a {
 /* Header related styles here */
 
 /* Main related styles here */
+main {
+  max-width: 1140px;
+  margin: 0px auto;
+}
 /* About section styles here */
 .about {
   padding: 130px;
   border-radius: 10px;
   background: #fff8f3;
   margin: 130px 0px;
+}
+.about-info-container{
+  display: flex;
+  justify-content: space-around;
+}
+.about-info {
+  color: #757575;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+}
+.info-title{
+    margin-bottom: 0px;
+    padding-top: 0px;
+}
+.info-description{
+    margin-top: 0px;
+    font-weight: bolder;
+    color: #474747;
 }
 /* About section styles here */
 /* Main related styles here */
