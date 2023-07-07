@@ -190,9 +190,18 @@ main section {
 .download-cv{
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 113px;
 }
 /* Resume section ends here */
 
 /* What i do related style ends here */
+
+/* Footer style starts here */
+footer{
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 230px;
+}
+/* Footer style starts here */
 
 /* Main related styles here */
